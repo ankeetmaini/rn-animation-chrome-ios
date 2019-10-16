@@ -67,6 +67,8 @@ const TabHeader = () => {
         scrollEventThrottle={16}
         bounces={false}
         snapToInterval={BAR_WIDTH * 1.5}
+        disableIntervalMomentum={true}
+        decelerationRate="fast"
         onScroll={Animated.event(
           [
             {
